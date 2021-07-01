@@ -1,0 +1,25 @@
+{
+  "name": "objection-introduction",
+  "version": "1.0.0",
+  "description": "Introducción a Objection",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "db:migrate": "knex migrate:latest",
+    "db:seed": "knex seed:run"
+  },
+  "author": "Carlos Trinidad",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "knex": "^0.21.19",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "objection": "^2.2.15",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
